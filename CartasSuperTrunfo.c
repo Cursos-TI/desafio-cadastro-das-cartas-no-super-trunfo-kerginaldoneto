@@ -32,7 +32,7 @@ int main() {
     scanf("%s", codigo1);
     
     printf("Digite o nome da cidade: ");
-    scanf("%s", &nomeCidade1);
+    scanf(" %[^\n]", nomeCidade1);
     
     printf("Digite a população: ");
     scanf("%d", &populacao1);
@@ -57,7 +57,7 @@ int main() {
     scanf("%s", codigo2);
     
     printf("Digite o nome da cidade: ");
-    scanf("%s", &nomeCidade2);
+    scanf(" %[^\n]", nomeCidade2);
     
     printf("Digite a população: ");
     scanf("%d", &populacao2);
